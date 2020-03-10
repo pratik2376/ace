@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="sample suite">
+<test name="test case name">
+<groups>
+<run>
+<include name="module1">
+</include>
+</run>
+</groups>
+<classes>
+<class name="nv.xz">
+</class>
+</classes>
+</test>
+</suite>

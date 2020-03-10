@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="sample suite">
+<test name="test case name">
+<classes>
+<class name="framework1.bb1">
+</class>
+</classes>
+</test>
+</suite>

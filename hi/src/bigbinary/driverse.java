@@ -21,7 +21,7 @@ public class driverse
 		driver.get("https://qa.aceinvoice.com/");
 		
 
-		 for(int i=0;i<=10;i++)
+		 for(int i=0;i<=5;i++)
 			{
 				 Random obj = new Random(); 
 				int a = obj.nextInt(600); 

@@ -2,7 +2,7 @@
 <suite name="sample suite">
 <test name="test case name">
 <classes>
-<class name="framework1.bb1">
+<class name="bigbinary.bb1">
 </class>
 </classes>
 </test>

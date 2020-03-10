@@ -24,14 +24,14 @@ public class driverse
 		 for(int i=0;i<=10;i++)
 			{
 				 Random obj = new Random(); 
-				int a = obj.nextInt(300); 
+				int a = obj.nextInt(600); 
 				driver.findElement(By.partialLinkText("Sign Up")).sendKeys(Keys.RETURN);
-				driver.findElement(By.name("email")).sendKeys("lmn"+a+"@gmail.com");
+				driver.findElement(By.name("email")).sendKeys("stud"+a+"@gmail.com");
 				driver.findElement(By.name("get_started")).click();
 				driver.findElement(By.name("password")).sendKeys("randome");
 				driver.findElement(By.name("password_confirmation")).sendKeys("randome");
 				try {
-					Thread.sleep(5000);
+					Thread.sleep(7000);
 				} catch (InterruptedException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
@@ -44,6 +44,14 @@ public class driverse
 				driver.findElement(By.name("name")).sendKeys("bigb");
 				driver.findElement(By.name("commit")).click();
 				driver.findElement(By.partialLinkText("Skip this step")).sendKeys(Keys.RETURN);
+				driver.findElement(By.xpath("//div//button[@class='btn btn-primary']")).click();
+				try {
+					Thread.sleep(5000);
+				} catch (InterruptedException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+				driver.findElement(By.xpath("//a[@class='dropdown-toggle']")).click();
 				driver.findElement(By.xpath("//a[contains(text(),'Logout')]")).click();
 				try {
 				Thread.sleep(3000);
